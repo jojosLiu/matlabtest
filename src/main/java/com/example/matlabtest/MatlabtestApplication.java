@@ -18,9 +18,6 @@ public class MatlabtestApplication {
         SpringApplication.run(MatlabtestApplication.class, args);
 
 
-
-
-
         try {
 //            MWNumericArray c = null; // 存放k值的数组
             BlockGrover blockGrover = new BlockGrover();
@@ -49,8 +46,6 @@ public class MatlabtestApplication {
             System.out.println("pi : "+ Arrays.toString(kp[1]));
             System.out.println("平均搜索次数E ："+result[6]);
             System.out.println("优化率 ："+result[7]);
-
-
 
 
 
